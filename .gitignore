@@ -1,2 +1,9 @@
+# Python virtual env
 venv/
+# Compiled files
 __pycache__/
+*.pyc
+# Data artifacts
+pairs_labels.joblib
+# VS Code settings (optional)
+.vscode/
