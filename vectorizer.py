@@ -36,7 +36,6 @@ def vectorize(user_json: dict) -> np.ndarray:
     hobby_vec = one_hot(user_json["hobbies"], HOBBIES)
     return np.concatenate([traits, love_vec, hobby_vec])
 
-# quick smoke-test
 if __name__ == "__main__":
     demo = {
         "openness": 0.8,
@@ -48,5 +47,5 @@ if __name__ == "__main__":
         "hobbies": ["hiking", "reading", "movies"],
     }
     vec = vectorize(demo)
-    print("Vector length:", len(vec))    # expect 20
+    print("Vector length:", len(vec))
     print("Vector:", vec)
