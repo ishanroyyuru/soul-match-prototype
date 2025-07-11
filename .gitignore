@@ -6,4 +6,4 @@ __pycache__/
 # Data artifacts
 pairs_labels.joblib
 # VS Code settings (optional)
-.vscode/
+.vscode/*.joblib
