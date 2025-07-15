@@ -1,9 +1,14 @@
-# Python virtual env
+# Virtual environments
 venv/
-# Compiled files
+env/
 __pycache__/
 *.pyc
-# Data artifacts
-pairs_labels.joblib
-# VS Code settings (optional)
-.vscode/*.joblib
+
+# Data & model artifacts
+*.joblib
+mock_profiles.json
+data/
+
+# IDE & OS files
+.vscode/
+.DS_Store
