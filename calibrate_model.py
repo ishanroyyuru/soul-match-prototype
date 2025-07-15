@@ -14,4 +14,4 @@ calibrated.fit(X, y)
 
 # 3) Save the calibrated version
 joblib.dump(calibrated, "data/calibrated_model.joblib")
-print("✅ Saved data/calibrated_model.joblib")
+print("Saved data/calibrated_model.joblib")

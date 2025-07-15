@@ -12,4 +12,4 @@ clf.fit(X, y)
 
 # 3) Save it
 joblib.dump(clf, "data/logistic_model.joblib")
-print("✅ Saved data/logistic_model.joblib")
+print("Saved data/logistic_model.joblib")
